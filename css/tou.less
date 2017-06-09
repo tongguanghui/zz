@@ -1,0 +1,127 @@
+@import url(m_style.css);
+//封装宽、高、背景
+.pub(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+//封装整体为100%，内容移除隐藏
+.all{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+//封装一个新弹性盒
+.box(@dir:horizontal){
+    display: -webkit-box; //将父元素设置为弹性盒模式
+    -webkit-box-orient: @dir;//给子元素分配排列方式
+}
+html,body,.container{
+    .all;
+}
+//给元素排列方式
+.container{
+    .box(vertical);
+    background: #f3f3f3;
+
+//导航栏
+header{
+    .pub(100%,0.89rem,none);
+    background: url(../img/msg_head.png);
+    background-size:100% auto ;
+    .box;
+    -webkit-box-align: center;
+//  -webkit-box-pack: center
+    p{
+        font-size: 0.25rem;
+        color: #fff;
+        a{
+            margin-left: 0.4rem;
+            margin-right: 2.64rem;
+            img{
+                .pub(0.36rem,auto,none);
+            }
+        }
+    }
+}
+section{
+    -webkit-box-flex: 1;
+    .p1{
+        .box;
+        .pub(100%,1.1rem,none);
+        border-bottom: 1px solid #e1e1e1;
+        font-size: 0.26rem;
+        -webkit-box-align: center;
+        
+        a{
+            display: block;
+            -webkit-box-flex: 1;
+            margin-left: 0.4rem;
+          
+              color: #333333;
+        }
+        span{
+            margin-right: 0.4rem;
+             color: #5d5d5d;
+        img{
+            width: 0.97rem;
+            height: 0.97rem;
+       
+        }
+        }
+      }
+      
+      .p2{
+            .box;
+        .pub(100%,0.9rem,none);
+        border-bottom: 1px solid #e1e1e1;
+        font-size: 0.26rem;
+        -webkit-box-align: center;
+        a{
+            display: block;
+            -webkit-box-flex: 1;
+                color: #333333;
+            margin-left: 0.4rem;
+        }
+        span{
+            margin-right: 0.4rem;
+             color: #5d5d5d;
+     
+       
+        
+        }
+          
+          
+      }
+      .p7{
+            .box;
+        .pub(100%,1.1rem,none);
+        border-bottom: 1px solid #e1e1e1;
+        font-size: 0.26rem;
+        -webkit-box-align: center;
+        a{
+            display: block;
+            -webkit-box-flex: 1;
+            margin-left: 0.4rem;
+              color: #333333;
+        }
+        span{
+            margin-right: 0.4rem;
+             color: #5d5d5d;
+          
+        img{
+            width: 0.16rem;
+            height: 0.25rem;
+       
+        }
+        }
+      }
+}
+
+footer{
+    
+}
+
+
+}
+

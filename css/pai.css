@@ -1,0 +1,144 @@
+@import url(m_style.css);
+.all {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  background: #f3f3f3;
+}
+.container header {
+  width: 100%;
+  height: 0.89rem;
+  background: none;
+  background: url(../img/msg_head.png);
+  background-size: 100% auto ;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container header p {
+  font-size: 0.25rem;
+  color: #fff;
+}
+.container header p a {
+  margin-left: 0.4rem;
+  margin-right: 2.64rem;
+}
+.container header p a img {
+  width: 0.36rem;
+  height: auto;
+  background: none;
+}
+.container section {
+  -webkit-box-flex: 1;
+}
+.container section .p1 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 1.1rem;
+  background: none;
+  border-bottom: 1px solid #e1e1e1;
+  font-size: 0.26rem;
+  -webkit-box-align: center;
+}
+.container section .p1 a {
+  display: block;
+  -webkit-box-flex: 1;
+  margin-left: 0.4rem;
+  color: #333333;
+}
+.container section .p1 span {
+  margin-right: 0.4rem;
+  color: #5d5d5d;
+}
+.container section .p1 span img {
+  width: 0.97rem;
+  height: 0.97rem;
+}
+.container section .p2 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 0.9rem;
+  background: none;
+  border-bottom: 1px solid #e1e1e1;
+  font-size: 0.26rem;
+  -webkit-box-align: center;
+}
+.container section .p2 a {
+  display: block;
+  -webkit-box-flex: 1;
+  color: #333333;
+  margin-left: 0.4rem;
+}
+.container section .p2 span {
+  margin-right: 0.4rem;
+  color: #5d5d5d;
+}
+.container section .p7 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 1.1rem;
+  background: none;
+  border-bottom: 1px solid #e1e1e1;
+  font-size: 0.26rem;
+  -webkit-box-align: center;
+}
+.container section .p7 a {
+  display: block;
+  -webkit-box-flex: 1;
+  margin-left: 0.4rem;
+  color: #333333;
+}
+.container section .p7 span {
+  margin-right: 0.4rem;
+  color: #5d5d5d;
+}
+.container section .p7 span img {
+  width: 0.16rem;
+  height: 0.25rem;
+}
+.container .zhao {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 99999;
+}
+.container .zhao .chuang {
+  width: 4.5rem;
+  height: 2.6rem;
+  background: #FFFFFF;
+  border-radius: 0.15rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.25rem;
+  top: 50%;
+  margin-top: -1.2rem;
+}
+.container .zhao .chuang .a1 {
+  display: block;
+  width: 3.55rem;
+  height: 0.85rem;
+  background: none;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 0.28rem;
+  margin-left: 0.5rem;
+  line-height: 0.85rem;
+}

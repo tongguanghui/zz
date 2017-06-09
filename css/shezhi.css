@@ -1,0 +1,93 @@
+@import url(m_style.css);
+.all {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  background: #f3f3f3;
+}
+.container header {
+  width: 100%;
+  height: 1.2rem;
+  background: #f94051;
+}
+.container header p {
+  width: 100%;
+  height: 1.2rem;
+  background: #f94051;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 1.2rem;
+  font-size: 0.34rem;
+  background: url(../img/fanhui1.png) no-repeat 0.4rem center;
+  background-size: 0.35rem ;
+}
+.container section {
+  -webkit-box-flex: 1;
+}
+.container section .shang {
+  width: 6.64rem;
+  height: 0.88rem;
+  background: none;
+  margin-top: 0.8rem;
+  margin-left: 0.4rem;
+}
+.container section .shang p {
+  font-size: 0.3rem;
+  color: #b2b2b2;
+  font-weight: normal;
+  line-height: 0.4rem;
+}
+.container section .shang p b {
+  font-weight: normal;
+}
+.container section .zhong {
+  width: 100%;
+  height: 2.55rem;
+  background: none;
+  margin-top: 1.0rem;
+}
+.container section .zhong span {
+  width: 6.7rem;
+  margin-left: 0.4rem;
+  height: 0.85rem;
+  display: inline-block;
+  border-bottom: 1px solid #e7e7e7;
+  line-height: 0.8rem;
+  font-weight: normal;
+}
+.container section .zhong span a {
+  margin-left: 0.3rem;
+}
+.container section .zhong .mi {
+  border-bottom: 2px solid #fabd6d;
+  font-size: 0.28rem;
+  color: #333333;
+}
+.container section .xia {
+  width: 6.72rem;
+  height: 0.89rem;
+  background: #f9384b;
+  margin-top: 1.78rem;
+  margin-left: 0.38rem;
+  border-radius: 0.08rem;
+}
+.container section .xia a {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  line-height: 0.89rem;
+  color: #FFFFFF;
+  font-size: 0.32rem;
+  font-weight: normal;
+}

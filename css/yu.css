@@ -1,0 +1,73 @@
+@import url(m_style.css);
+.all {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  background: #f3f3f3;
+}
+.container header {
+  width: 100%;
+  height: 4.63rem;
+  background: #fa5f6e;
+}
+.container header .yue {
+  width: 100%;
+  height: 0.94rem;
+  background: #fa5f6e;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container header .yue p {
+  margin-left: 0.4rem;
+  width: 1.55rem;
+  height: 0.94rem;
+  color: #FFFFFF;
+  margin-top: 0.32rem;
+  font-size: 0.3rem;
+}
+.container header .yue p img {
+  margin-right: 0.42rem;
+}
+.container header .yue span {
+  -webkit-box-flex: 1;
+  font-size: 0.3rem;
+  display: block;
+  text-align: right;
+  margin-top: 0.32rem;
+  margin-right: 0.4rem;
+  color: #FFFFFF;
+}
+.container header .zhong {
+  width: 100%;
+  height: 2.37rem;
+  background: #ffc0cb;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container header .zhong a {
+  display: block;
+  width: 1.76rem;
+  height: 0.26rem;
+  background: yellow;
+  font-size: 0.3rem;
+  margin-top: 0.36rem;
+  margin-left: 1.17rem;
+}
+.container header .zhong a span {
+  margin-left: 0.16rem;
+}
+.container section {
+  -webkit-box-flex: 1;
+}

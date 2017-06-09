@@ -1,0 +1,148 @@
+@import url(m_style.css);
+.all {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  background: #f3f3f3;
+}
+.header {
+  width: 100%;
+  height: 0.89rem;
+  background: none;
+  background: url(../img/msg_head.png);
+  background-size: 100% auto ;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.header p {
+  font-size: 0.38rem;
+  color: #fff;
+}
+.header p a {
+  margin-left: 0.4rem;
+  margin-right: 2.64rem;
+}
+.header p a img {
+  width: 0.36rem;
+  height: auto;
+  background: none;
+}
+.mian {
+  width: 100%;
+  height: 6.18rem;
+  background: none;
+}
+.mian .mian1 {
+  width: 100%;
+  height: 3.5rem;
+  background: #ffffff;
+  margin-top: 0.12rem;
+}
+.mian .mian1 p {
+  width: 100%;
+  height: 0.86rem;
+  background: none;
+  border-top: 1px solid #f3f3f3;
+  font-size: 0.3rem;
+  color: #6e6e6e;
+  line-height: 0.86rem;
+}
+.mian .mian1 p a {
+  width: 6.7rem;
+  height: 0.86rem;
+  background: none;
+  margin-left: 0.4rem;
+}
+.mian .mian1 p a img {
+  margin-left: 5.3rem;
+  width: 0.12rem;
+}
+.mian .mian1 p a span {
+  margin-left: 4.6rem;
+}
+.mian .mian1 .p1 {
+  border: none;
+}
+.mian .mian1 .p1 img {
+  margin-left: 5.22rem;
+}
+.footer {
+  width: 100%;
+  height: 0.89rem;
+  background: none;
+}
+.footer .f1 {
+  background: url(../img/yuan1.png) no-repeat;
+  background-size: 6.68rem,0.89rem;
+  margin-left: 0.4rem;
+  text-align: center;
+  line-height: 0.89rem;
+}
+.footer .f1 a {
+  color: #ffffff;
+  font-size: 0.34rem;
+}
+.ze {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 99999;
+}
+.ze .zhao {
+  width: 4.5rem;
+  height: 2.4rem;
+  background: #FFFFFF;
+  border-radius: 0.18rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.25rem;
+  top: 50%;
+  margin-top: -1.2rem;
+}
+.ze .zhao .shang {
+  width: 4.16rem;
+  height: 1.41rem;
+  background: none;
+  margin-top: 0.2rem;
+  margin-left: 0.165rem;
+  border-bottom: 2px solid #fcc479;
+}
+.ze .zhao .shang p {
+  width: 4.16rem;
+  font-size: 0.28rem;
+  text-align: center;
+}
+.ze .zhao .shang .text {
+  font-size: 0.24rem;
+  text-align: center;
+  width: 4.18rem;
+  height: 0.65rem;
+  border: none;
+  outline: none;
+}
+.ze .zhao a {
+  font-size: 0.3rem;
+  text-align: center;
+  margin-left: 0.8rem;
+  height: 0.90rem;
+  line-height: 0.9rem;
+  background: url(../img/xian.png) no-repeat center;
+  background-size: 0.03rem;
+}

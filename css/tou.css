@@ -1,0 +1,112 @@
+@import url(m_style.css);
+.all {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  background: #f3f3f3;
+}
+.container header {
+  width: 100%;
+  height: 0.89rem;
+  background: none;
+  background: url(../img/msg_head.png);
+  background-size: 100% auto ;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container header p {
+  font-size: 0.25rem;
+  color: #fff;
+}
+.container header p a {
+  margin-left: 0.4rem;
+  margin-right: 2.64rem;
+}
+.container header p a img {
+  width: 0.36rem;
+  height: auto;
+  background: none;
+}
+.container section {
+  -webkit-box-flex: 1;
+}
+.container section .p1 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 1.1rem;
+  background: none;
+  border-bottom: 1px solid #e1e1e1;
+  font-size: 0.26rem;
+  -webkit-box-align: center;
+}
+.container section .p1 a {
+  display: block;
+  -webkit-box-flex: 1;
+  margin-left: 0.4rem;
+  color: #333333;
+}
+.container section .p1 span {
+  margin-right: 0.4rem;
+  color: #5d5d5d;
+}
+.container section .p1 span img {
+  width: 0.97rem;
+  height: 0.97rem;
+}
+.container section .p2 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 0.9rem;
+  background: none;
+  border-bottom: 1px solid #e1e1e1;
+  font-size: 0.26rem;
+  -webkit-box-align: center;
+}
+.container section .p2 a {
+  display: block;
+  -webkit-box-flex: 1;
+  color: #333333;
+  margin-left: 0.4rem;
+}
+.container section .p2 span {
+  margin-right: 0.4rem;
+  color: #5d5d5d;
+}
+.container section .p7 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 1.1rem;
+  background: none;
+  border-bottom: 1px solid #e1e1e1;
+  font-size: 0.26rem;
+  -webkit-box-align: center;
+}
+.container section .p7 a {
+  display: block;
+  -webkit-box-flex: 1;
+  margin-left: 0.4rem;
+  color: #333333;
+}
+.container section .p7 span {
+  margin-right: 0.4rem;
+  color: #5d5d5d;
+}
+.container section .p7 span img {
+  width: 0.16rem;
+  height: 0.25rem;
+}
